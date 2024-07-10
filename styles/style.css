@@ -53,6 +53,16 @@ p{
     font-weight:600;
     text-align: center;
  }
+<<<<<<< HEAD
+=======
+.btn-secondary{
+    width:auto;
+    padding:17px 24px;
+    font-size:16px;
+    font-weight:600;
+    text-align: center;
+ }
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
  .btn_bg{
     background-color: black;
     color: white;
@@ -149,6 +159,7 @@ background-position: center;
 }
  /* banner size style end */
 
+<<<<<<< HEAD
  /*why web development*/
 .why-web-development{
 
@@ -156,11 +167,24 @@ width: 1140px;
 height: 1395px;
 background-color: white;
 margin: 88px auto;
+=======
+ /*why web developmet*/
+.why-web-development{
+
+width: 1140;
+height: 1395;
+background-color: whit;
+margin: 0px auto;
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
 
 }
 /* I will Do Coding and Change The World section start */
 
+<<<<<<< HEAD
 .development-container{
+=======
+.develoment-container{
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -168,8 +192,12 @@ margin: 88px auto;
     height: 1235px;
     background-color: #d7d7d746;
     margin: 0 auto;
+<<<<<<< HEAD
     /* padding: 10px 30px 10px 30px; */
     padding: 97px;
+=======
+    padding: 10px 30px 10px 30px;
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
 }  
 .coding-change {
     display: flex;
@@ -222,16 +250,27 @@ margin: 88px auto;
     flex-direction: column;
     gap: 20px;
 }
+<<<<<<< HEAD
 /* my-inspiration */
+=======
+/* my-inspirataion */
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
 .my-inspiration{
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 946px;
+<<<<<<< HEAD
     background-color: #f8f5f546;
     margin: 0 auto;
     padding: 10px 30px 10px 30px;
     margin-bottom: 80px;
+=======
+    height: 1235px;
+    background-color: #f8f5f546;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
 }
 
 .inspiration-text{
@@ -244,6 +283,7 @@ margin: 88px auto;
     width:900px;
     height:614px;
     padding-left: 20px;
+<<<<<<< HEAD
 }
 .my-current-target{
     display: flex;
@@ -348,3 +388,8 @@ margin: 88px auto;
             margin: 0 auto;
         }
         
+=======
+
+
+}
+>>>>>>> dcd213e5044cbe23dc950078445bd6ae9d9c4a8a
