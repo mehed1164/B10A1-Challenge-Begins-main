@@ -1,13 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    }
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
   }
-  
+  * {
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: 600;
+  color:#0D1321 ;
+  font-family: Azeret Mono;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#0D1321 ;
+}
   /*common*/
+
   .btn-primary{
     border-radius: 5px;
     width: 220px;
@@ -17,28 +43,45 @@
     padding:17px 24px;
     font-size:18px;
     font-weight:600;
-    color: #1e1e1f;
+    color: #7c7c7e;
     text-align: center;
  }
-
+.btn-secondary{
+    width:auto;
+    padding:17px 24px;
+    font-size:16px;
+    font-weight:600;
+    text-align: center;
+ }
  .btn_bg{
     background-color: black;
     color: white;
 
  }
 
+.primary-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #0D1321; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
   /*Nav styles*/
  nav{
   display: flex;
   justify-content: space-between;
-  margin: 30px 200px;
+  margin: 20px 150px;
 
 
  }
  .nav-title{
    font-weight: bold;
-   font-size: 24px;
+   font-size: 30px;
    color: #0D1321;
+    margin-top: 17px;
+    margin-left: 24;
+    padding:17px 24px;
 
  }
  .btn-primary{
@@ -50,7 +93,7 @@
     padding:17px 24px;
     font-size:18px;
     font-weight:600;
-    color: #1e1e1f;
+    color: #3f3f41;
     text-align: center;
  }
 
@@ -61,6 +104,7 @@
     margin: 0 auto;
     text-align: centre;
     position: relative;
+    margin-bottom: 100px;
  }
 .banner-background{
     background-image: url('../assets/Hero-bg.png');
@@ -72,7 +116,6 @@
     padding: 40px;
     height:580px ;
     width: 1000px;
-    border: 2px solid red;
     margin: 0 auto;
     text-align: center;
 
@@ -93,7 +136,215 @@ background-position: center;
 
 .banner-title {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 45px;
     color: #0D1321;
     text-decoration: none;
+    
 }
+.banner-description{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
+
+}
+ /* banner size style end */
+
+ /*why web development*/
+.why-web-development{
+
+width: 1140px;
+height: 1395px;
+background-color: white;
+margin: 88px auto;
+
+}
+/* I will Do Coding and Change The World section start */
+
+.development-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 946px;
+    height: 1235px;
+    background-color: #d7d7d746;
+    margin: 0 auto;
+    /* padding: 10px 30px 10px 30px; */
+    padding: 97px;
+}  
+.coding-change {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.coding-change-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* I will help People by creating Modern Web System */
+
+.modern-web-system {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.modern-web-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* I will Do Coding and Change The World section */
+
+.change-world {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.change-world-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* my-inspiration */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 946px;
+    background-color: #f8f5f546;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 80px;
+}
+
+.inspiration-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.my-inspiration-video-container{
+    width:900px;
+    height:614px;
+    padding-left: 20px;
+}
+.my-current-target{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 946px;
+    padding: 20px;
+    background-color: #fdfafa46;
+    margin: 0 auto;
+}
+.target-container{
+    display: flex;
+    gap: 24px;
+    
+    }
+.target{
+    padding: 25px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+    }
+.my-next-target{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 946px;
+        padding: 20px;
+        background-color: #fdfafa46;
+        margin: 0 auto;
+        }
+.my-next-target-Description {
+     text-align: center;
+     }
+
+.my-next-target-container{
+    display: flex;
+    flex-direction: column;
+}
+.my-next-target-course{
+    display: flex;
+    gap: 30px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #0D1321;
+    border-radius: 10px;
+    padding: 5px;
+    }
+
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 926px;
+        height: 315px;
+        padding: 20px;
+        margin: 0 auto;
+        background-image: url(../assets/handshake.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        } 
+        .subscribe-content{
+            text-align: center;
+            padding-top: 120px;
+        }
+
+        .subscribe-title{
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .subscribe-Description{
+            text-align: center;
+            color: white;
+            font-size: 16px;
+        }
+        .subscribe-box{
+
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            height: 100px;
+        }
+        .form-box input{
+            font-size: 20px;
+            color: #0D1321;
+            padding: 15px 30px;
+            border: none;
+            
+        }
+        .form-box button{
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .footer{
+            background-color: #e7e7e9;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+        
