@@ -230,7 +230,7 @@ margin: 88px auto;
     width: 946px;
     background-color: #f8f5f546;
     margin: 0 auto;
-    padding: 10px 30px 10px 30px;
+    padding: 88px;
     margin-bottom: 80px;
 }
 
@@ -245,6 +245,7 @@ margin: 88px auto;
     height:614px;
     padding-left: 20px;
 }
+/* my-current-target */
 .my-current-target{
     display: flex;
     flex-direction: column;
@@ -264,6 +265,7 @@ margin: 88px auto;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     
     }
+    /* my-next-target */
 .my-next-target{
         display: flex;
         flex-direction: column;
@@ -271,7 +273,7 @@ margin: 88px auto;
         width: 946px;
         padding: 20px;
         background-color: #fdfafa46;
-        margin: 0 auto;
+        margin: 50px auto;
         }
 .my-next-target-Description {
      text-align: center;
@@ -290,7 +292,7 @@ margin: 88px auto;
     border-radius: 10px;
     padding: 5px;
     }
-
+/* subscriber */
     .subscribe{
         display: flex;
         flex-direction: column;
@@ -298,7 +300,7 @@ margin: 88px auto;
         width: 926px;
         height: 315px;
         padding: 20px;
-        margin: 0 auto;
+        margin: 50px auto;
         background-image: url(../assets/handshake.jpg);
         background-repeat: no-repeat;
         background-size: cover;
