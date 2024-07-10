@@ -272,13 +272,14 @@ margin: 88px auto;
 .my-next-target{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         width: 946px;
         padding: 20px;
         background-color: #fdfafa46;
-        margin: 50px auto;
+        margin: 10px auto;
         }
 .my-next-target-Description {
+    padding-bottom: 20px;
      text-align: center;
      }
 
