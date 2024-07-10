@@ -24,7 +24,6 @@ h1{
   font-size: 24px;
   font-weight: 600;
   color:#0D1321 ;
-  font-family: Azeret Mono;
 }
 
 p{
@@ -173,7 +172,7 @@ margin: 88px auto;
 }  
 .coding-change {
     display: flex;
-    gap: 20px;
+    gap: 35px;
     background-color: white;
     border-radius: 5px;
     padding: 30px;
@@ -196,11 +195,6 @@ margin: 88px auto;
     border-radius: 5px;
     padding: 30px;
 
-
-}
-.modern-web-img{
-    height: 120px;
-    width: 120px;
 }
 .modern-web-text{
     display: flex;
