@@ -5,9 +5,31 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
-  
+  * {
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: 600;
+  color:#0D1321 ;
+  font-family: Azeret Mono;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#0D1321 ;
+}
   /*common*/
+
   .btn-primary{
     border-radius: 5px;
     width: 220px;
@@ -20,25 +42,42 @@
     color: #1e1e1f;
     text-align: center;
  }
-
+.btn-secondary{
+    width:auto;
+    padding:17px 24px;
+    font-size:16px;
+    font-weight:600;
+    text-align: center;
+ }
  .btn_bg{
     background-color: black;
     color: white;
 
  }
 
+.primary-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #0D1321; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
   /*Nav styles*/
  nav{
   display: flex;
   justify-content: space-between;
-  margin: 30px 200px;
+  margin: 20px 150px;
 
 
  }
  .nav-title{
    font-weight: bold;
-   font-size: 24px;
+   font-size: 30px;
    color: #0D1321;
+    margin-top: 17px;
+    margin-left: 24;
+    padding:17px 24px;
 
  }
  .btn-primary{
@@ -61,6 +100,7 @@
     margin: 0 auto;
     text-align: centre;
     position: relative;
+    margin-bottom: 100px;
  }
 .banner-background{
     background-image: url('../assets/Hero-bg.png');
@@ -72,7 +112,6 @@
     padding: 40px;
     height:580px ;
     width: 1000px;
-    border: 2px solid red;
     margin: 0 auto;
     text-align: center;
 
@@ -93,7 +132,113 @@ background-position: center;
 
 .banner-title {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 45px;
     color: #0D1321;
     text-decoration: none;
+    
+}
+.banner-description{
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
+
+}
+ /* banner size style end */
+
+ /*why web developmet*/
+.why-web-development{
+
+width: 1140;
+height: 1395;
+background-color: whit;
+margin: 0px auto;
+
+}
+/* I will Do Coding and Change The World section start */
+
+.develoment-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 946px;
+    height: 1235px;
+    background-color: #d7d7d746;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+}  
+.coding-change {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.coding-change-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* I will help People by creating Modern Web System */
+
+.modern-web-system {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.modern-web-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* I will Do Coding and Change The World section */
+
+.change-world {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.change-world-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* my-inspirataion */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 946px;
+    height: 1235px;
+    background-color: #f8f5f546;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+}
+
+.inspiration-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.my-inspiration-video-container{
+    width:900px;
+    height:614px;
+    padding-left: 20px;
+
+
 }
