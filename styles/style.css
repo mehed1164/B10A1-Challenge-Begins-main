@@ -198,7 +198,10 @@ margin: 88px auto;
 
 
 }
-
+.modern-web-img{
+    height: 120px;
+    width: 120px;
+}
 .modern-web-text{
     display: flex;
     flex-direction: column;
